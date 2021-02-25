@@ -1,0 +1,2 @@
+function module(e,t,a){let o,n;a.export({AttachmentContext:()=>s,useMediaUrl:()=>d,useAttachmentDimensions:()=>i,useAttachmentIsCollapsedByDefault:()=>u,useAttachmentAutoLoadEmbedMedia:()=>l}),a.link("react",{createContext(e){o=e},useContext(e){n=e}},0);const s=o({getURL:e=>e,dimensions:{width:480,height:360},collapsedByDefault:!1,autoLoadEmbedMedias:!0}),d=()=>{const{getURL:e}=n(s);return e},i=()=>n(s).dimensions,u=()=>n(s).collapsedByDefault,l=()=>n(s).autoLoadEmbedMedias}
+

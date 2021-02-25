@@ -1,0 +1,2 @@
+function module(e,t,n){let d,r,s,u,i;n.export({useTemplateByViewMode:()=>l}),n.link("react",{useMemo(e){d=e}},0),n.link("../../contexts/UserContext",{useUserPreference(e){r=e}},1),n.link("../Item/Condensed",{default(e){s=e}},2),n.link("../Item/Extended",{default(e){u=e}},3),n.link("../Item/Medium",{default(e){i=e}},4);const l=()=>{const e=r("sidebarViewMode");return d(()=>{switch(e){case"extended":return u;case"medium":return i;case"condensed":default:return s}},[e])}}
+

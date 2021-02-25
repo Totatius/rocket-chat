@@ -1,0 +1,2 @@
+function module(e,r,n){n.export({createHexColorPreviewMessageRenderer:function(){return o}}),n.link("./style.css");var o=function(){return function(e){var r;if(!(null===(r=e.html)||void 0===r?void 0:r.trim()))return e;var n=/(?:^|\s|\n)(#[A-Fa-f0-9]{3}([A-Fa-f0-9]{3})?)\b/g;return e.html=e.html.replace(n,(function(e,r){return e.replace(r,'<div class="message-color"><div class="message-color-sample" style="background-color:'+r+'"></div>'+r.toUpperCase()+"</div>")})),e}}}
+

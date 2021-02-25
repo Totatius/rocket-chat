@@ -1,0 +1,2 @@
+function module(e,t,n){let o,l,u,a,c,i;n.link("@babel/runtime/helpers/extends",{default(e){o=e}},0),n.link("react",{default(e){l=e}},0),n.link("@rocket.chat/fuselage",{Sidebar(e){u=e}},1),n.link("@rocket.chat/fuselage-hooks",{useMutableCallback(e){a=e}},2),n.link("../../../contexts/RouterContext",{useRoute(e){c=e}},3),n.link("../../../contexts/SettingsContext",{useSetting(e){i=e}},4);const s=e=>{const t=c("home"),n=i("Layout_Show_Home_Button"),s=a(()=>t.push({}));return n?l.createElement(u.TopBar.Action,o({},e,{icon:"home",onClick:s})):null};n.exportDefault(s)}
+

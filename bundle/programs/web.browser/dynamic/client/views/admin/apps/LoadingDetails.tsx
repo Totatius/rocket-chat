@@ -1,0 +1,2 @@
+function module(e,t,l){let a,n,r;l.link("react",{default(e){a=e}},0),l.link("@rocket.chat/fuselage",{Box(e){n=e},Skeleton(e){r=e}},1);const c=()=>a.createElement(n,{display:"flex",flexDirection:"row",mbe:"x20",w:"full"},a.createElement(r,{variant:"rect",w:"x120",h:"x120",mie:"x20"}),a.createElement(n,{display:"flex",flexDirection:"column",justifyContent:"space-between",flexGrow:1},a.createElement(r,{variant:"rect",w:"full",h:"x32"}),a.createElement(r,{variant:"rect",w:"full",h:"x32"}),a.createElement(r,{variant:"rect",w:"full",h:"x32"})));l.exportDefault(c)}
+

@@ -1,0 +1,2 @@
+function module(n,t,e){var u,o;e.export({useScrollableRecordList:function(){return i}}),e.link("react",{useCallback:function(n){u=n},useEffect:function(n){o=n}},0);var c=25,i=function(n,t){var e=arguments.length>2&&void 0!==arguments[2]?arguments[2]:25,c=u((function(e,u){n.batchHandle((function(){return t(e,u)}))}),[n,t]);return o((function(){c(0,null!=e?e:25)}),[c,e]),{loadMoreItems:c,initialItemCount:e}}}
+

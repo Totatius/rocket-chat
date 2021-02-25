@@ -1,0 +1,2 @@
+function module(e,t,n){var o,u,c,i,l;n.link("@babel/runtime/helpers/extends",{default:function(e){o=e}},0),n.link("react",{default:function(e){u=e}},0),n.link("@rocket.chat/fuselage",{Sidebar:function(e){c=e}},1),n.link("@rocket.chat/fuselage-hooks",{useMutableCallback:function(e){i=e}},2),n.link("../../../contexts/RouterContext",{useRoute:function(e){l=e}},3);var r=function(e){var t=l("directory"),n=i((function(){return t.push({})}));return u.createElement(c.TopBar.Action,o({},e,{icon:"globe",onClick:n}))};n.exportDefault(r)}
+

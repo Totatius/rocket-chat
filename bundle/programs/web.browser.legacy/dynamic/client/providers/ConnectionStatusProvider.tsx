@@ -1,0 +1,2 @@
+function module(e,n,t){var o,u,c,r,i;t.link("@babel/runtime/helpers/objectSpread2",{default:function(e){o=e}},0),t.link("meteor/meteor",{Meteor:function(e){u=e}},0),t.link("react",{default:function(e){c=e}},1),t.link("../contexts/ConnectionStatusContext",{ConnectionStatusContext:function(e){r=e}},2),t.link("../hooks/useReactiveValue",{useReactiveValue:function(e){i=e}},3);var a=function(){return o({},u.status(),{reconnect:u.reconnect})},l=function(e){var n=e.children,t=i(a);return c.createElement(r.Provider,{children:n,value:t})};t.exportDefault(l)}
+

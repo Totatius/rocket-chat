@@ -1,0 +1,2 @@
+function module(e,n,r){var t,c;r.export({useAsyncImage:function(){return o}}),r.link("react",{useEffect:function(e){t=e}},0),r.link("../../hooks/useAsyncState",{useAsyncState:function(e){c=e}},1);var o=function(e){var n=c(),r=n.value,o=n.resolve,u=n.reject,s=n.reset;return t((function(){if(s(),e){var n=new Image;n.addEventListener("load",(function(){o(n.src)})),n.addEventListener("error",(function(e){u(e.error)})),n.src=e}}),[e,o,u,s]),r}}
+

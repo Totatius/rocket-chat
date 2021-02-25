@@ -1,0 +1,2 @@
+function module(e,t,l){let r,a,n,o,u,i;function m(e){let{room:t}=e,l=a(e,["room"]);const o=i(),{url:m=o(t)}=l,s=a(l,["url"]);return n.createElement(u,r({url:m},s))}l.link("@babel/runtime/helpers/extends",{default(e){r=e}},0),l.link("@babel/runtime/helpers/objectWithoutProperties",{default(e){a=e}},1),l.link("react",{default(e){n=e},memo(e){o=e}},0),l.link("./BaseAvatar",{default(e){u=e}},1),l.link("../../contexts/AvatarUrlContext",{useRoomAvatarPath(e){i=e}},2),l.exportDefault(o(m))}
+

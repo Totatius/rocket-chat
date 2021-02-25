@@ -1,0 +1,2 @@
+function module(e,t,n){let r,s;n.export({useFilteredApps:()=>o}),n.link("react",{useContext(e){r=e}},0),n.link("../AppsContext",{AppsContext(e){s=e}},1);const o=e=>{let{filterFunction:t=(e=>e?t=>t.name.toLowerCase().indexOf(e.toLowerCase())>-1:()=>!0),text:n,sort:[,o],current:l,itemsPerPage:i}=e;const{apps:c}=r(s);if(!Array.isArray(c)||0===c.length)return[null,0];const p=c.filter(t(n));"desc"===o&&p.reverse();const u=p.length,a=l>u?0:l,x=l+i,f=p.slice(a,x);return[f,u]}}
+

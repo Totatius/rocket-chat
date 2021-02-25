@@ -1,0 +1,2 @@
+function module(e,n,t){var r;t.export({usePreventDefault:function(){return u}}),t.link("react",{useEffect:function(e){r=e}},0);var u=function(e){return r((function(){var n=e.current,t=function(e){[e.target.nodeName,e.target.parentElement.nodeName].includes("BUTTON")&&e.preventDefault()};return null==n||n.addEventListener("click",t),function(){return null==n?void 0:n.addEventListener("click",t)}}),[e]),{ref:e}}}
+

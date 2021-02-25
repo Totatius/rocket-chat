@@ -1,0 +1,2 @@
+function module(e,t,n){let o,a,l,s;n.link("react",{default(e){o=e}},0),n.link("toastr",{default(e){a=e}},1),n.link("../contexts/ToastMessagesContext",{ToastMessagesContext(e){l=e}},2),n.link("../../app/utils/client",{handleError(e){s=e}},3);const r=e=>{let{type:t,message:n,title:o,options:l}=e;"error"!==t||"object"!=typeof n?("string"!=typeof n&&(n="[".concat(n.name,"] ").concat(n.message)),a[t](n,o,l)):s(n)},c={dispatch:r},i=e=>{let{children:t}=e;return(o.createElement(l.Provider,{children:t,value:c}))};n.exportDefault(i)}
+

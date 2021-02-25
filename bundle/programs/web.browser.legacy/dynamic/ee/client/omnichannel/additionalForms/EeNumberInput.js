@@ -1,0 +1,2 @@
+function module(e,n,t){var l,a,r,u;t.export({EeNumberInput:function(){return o}}),t.link("react",{default:function(e){l=e}},0),t.link("@rocket.chat/fuselage",{NumberInput:function(e){a=e},Field:function(e){r=e}},1),t.link("../../../../client/contexts/TranslationContext",{useTranslation:function(e){u=e}},2);var o=function(e){var n=e.value,t=e.handler,o=e.label,c=e.placeholder,i=u();return l.createElement(r,null,l.createElement(r.Label,null,i(o)),l.createElement(r.Row,null,l.createElement(a,{value:n,onChange:t,flexGrow:1,placeholder:i(c)})))};t.exportDefault(o)}
+

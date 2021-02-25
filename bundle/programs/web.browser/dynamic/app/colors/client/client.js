@@ -1,0 +1,2 @@
+function module(e,o,r){r.export({createHexColorPreviewMessageRenderer:()=>s}),r.link("./style.css");const s=()=>e=>{var o;if(!(null===(o=e.html)||void 0===o?void 0:o.trim()))return e;const r=/(?:^|\s|\n)(#[A-Fa-f0-9]{3}([A-Fa-f0-9]{3})?)\b/g;return e.html=e.html.replace(r,(e,o)=>e.replace(o,'<div class="message-color"><div class="message-color-sample" style="background-color:'.concat(o,'"></div>').concat(o.toUpperCase(),"</div>"))),e}}
+

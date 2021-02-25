@@ -1,0 +1,2 @@
+function module(e,t,r){let l,n,a,i,o,u;r.link("react",{default(e){l=e}},0),r.link("use-subscription",{useSubscription(e){n=e}},1),r.link("../providers/MeteorProvider",{default(e){a=e}},2),r.link("../reactAdapters",{portalsSubscription(e){i=e}},3),r.link("../views/banners/BannerRegion",{default(e){o=e}},4),r.link("./PortalWrapper",{default(e){u=e}},5);const s=()=>{const e=n(i);return(l.createElement(a,null,l.createElement(o,null),e.map(e=>{let{key:t,portal:r}=e;return(l.createElement(u,{key:t,portal:r}))})))};r.exportDefault(s)}
+

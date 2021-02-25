@@ -1,0 +1,2 @@
+function module(n,e,t){var i,o,u;t.export({useFileList:function(){return s}}),t.link("react",{useCallback:function(n){i=n}},0),t.link("../../hooks/useDataWithLoadMore",{useDataWithLoadMore:function(n){o=n}},1),t.link("../../../../../contexts/ServerContext",{useEndpoint:function(n){u=n}},2);var r={c:"channels.files",l:"channels.files",d:"im.files",p:"groups.files"},s=function(n,e){var t=u("GET",r[n]);return o(i((function(n){return t(n)}),[t]),e)}}
+

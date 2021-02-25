@@ -1,0 +1,2 @@
+function module(t,e,n){var r,i,u;n.link("@babel/runtime/helpers/createSuper",{default:function(t){r=t}},0),n.link("@babel/runtime/helpers/inheritsLoose",{default:function(t){i=t}},1),n.export({MessageList:function(){return o}}),n.link("./RecordList",{RecordList:function(t){u=t}},0);var o=function(t){i(n,t);var e=r(n);function n(){return t.apply(this,arguments)||this}var u=n.prototype;return u.filter=function(){function t(t){return!0!==t._hidden}return t}(),u.compare=function(){function t(t,e){return t.ts.getTime()-e.ts.getTime()}return t}(),n}(u)}
+

@@ -1,0 +1,2 @@
+function module(e,t,l){let a,r,n,u,i,o;function s(e){let{username:t,etag:l}=e,u=r(e,["username","etag"]);const s=o(),{url:m=s(t,l)}=u,c=r(u,["url"]);return n.createElement(i,a({url:m,title:t},c))}l.link("@babel/runtime/helpers/extends",{default(e){a=e}},0),l.link("@babel/runtime/helpers/objectWithoutProperties",{default(e){r=e}},1),l.link("react",{default(e){n=e},memo(e){u=e}},0),l.link("./BaseAvatar",{default(e){i=e}},1),l.link("../../contexts/AvatarUrlContext",{useUserAvatarPath(e){o=e}},2),l.exportDefault(u(s))}
+

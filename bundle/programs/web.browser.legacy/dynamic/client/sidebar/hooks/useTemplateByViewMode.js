@@ -1,0 +1,2 @@
+function module(e,n,t){var u,i,r,d,o;t.export({useTemplateByViewMode:function(){return c}}),t.link("react",{useMemo:function(e){u=e}},0),t.link("../../contexts/UserContext",{useUserPreference:function(e){i=e}},1),t.link("../Item/Condensed",{default:function(e){r=e}},2),t.link("../Item/Extended",{default:function(e){d=e}},3),t.link("../Item/Medium",{default:function(e){o=e}},4);var c=function(){var e=i("sidebarViewMode");return u((function(){switch(e){case"extended":return d;case"medium":return o;case"condensed":default:return r}}),[e])}}
+

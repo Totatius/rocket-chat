@@ -1,0 +1,2 @@
+function module(e,t,n){let l,a,o,c;n.export({ContactManager:()=>r}),n.link("react",{default(e){l=e}},0),n.link("@rocket.chat/fuselage",{Field(e){a=e}},1),n.link("../../../../client/contexts/TranslationContext",{useTranslation(e){o=e}},2),n.link("../../../../client/components/AutoComplete",{UserAutoComplete(e){c=e}},3);const r=e=>{let{value:t,handler:n}=e;const r=o();return(l.createElement(a,null,l.createElement(a.Label,null,r("Contact_Manager")),l.createElement(a.Row,null,l.createElement(c,{value:t,onChange:n}))))};n.exportDefault(r)}
+

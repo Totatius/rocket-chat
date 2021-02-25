@@ -1,0 +1,2 @@
+function module(n,e,t){let i,a,o;t.export({useUIKitHandleAction:()=>c}),t.link("@rocket.chat/apps-engine/definition/uikit/UIKitIncomingInteractionContainer",{UIKitIncomingInteractionContainerType(n){i=n}},0),t.link("@rocket.chat/fuselage-hooks",{useMutableCallback(n){a=n}},1),t.link("../../../app/ui-message/client/ActionManager",{"*"(n){o=n}},2);const c=n=>a(async e=>{let{blockId:t,value:a,appId:c,actionId:l}=e;return o.triggerBlockAction({container:{type:i.VIEW,id:n.viewId||n.appId},actionId:l,appId:c,value:a,blockId:t})})}
+

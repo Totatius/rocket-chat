@@ -1,0 +1,2 @@
+function module(e,t,l){let n,r,a,c;l.link("@rocket.chat/fuselage",{Box(e){n=e},Skeleton(e){r=e},Table(e){a=e}},0),l.link("react",{default(e){c=e}},1);const m=e=>{let{cols:t}=e;return(c.createElement(a.Row,null,c.createElement(a.Cell,null,c.createElement(n,{display:"flex"},c.createElement(r,{variant:"rect",height:40,width:40}),c.createElement(n,{mi:"x8",flexGrow:1},c.createElement(r,{width:"100%"}),c.createElement(r,{width:"100%"})))),Array.from({length:t-1},(e,t)=>c.createElement(a.Cell,{key:t},c.createElement(r,{width:"100%"})))))};l.exportDefault(m)}
+

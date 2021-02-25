@@ -1,0 +1,2 @@
+function module(e,n,t){var r,a,i,u;t.link("@babel/runtime/helpers/extends",{default:function(e){r=e}},0),t.link("react",{default:function(e){a=e},forwardRef:function(e){i=e}},0),t.link("@rocket.chat/fuselage",{Box:function(e){u=e}},1);var f={minHeight:"250px"},c=i(function(){function e(e,n){return a.createElement(u,r({padding:"x20",height:"x300"},e),a.createElement("canvas",{ref:n,style:f}))}return e}());t.exportDefault(c)}
+

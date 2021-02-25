@@ -1,0 +1,2 @@
+function module(e,n,t){var l,u,o,r;t.link("react",{default:function(e){l=e}},0),t.link("../../../contexts/RouterContext",{useRouteParameter:function(e){u=e}},1),t.link("./UsersInRole",{default:function(e){o=e}},2),t.link("./PermissionsTable",{default:function(e){r=e}},3);var a=function(){var e;return"users-in-role"===u("context")?l.createElement(o,null):l.createElement(r,null)};t.exportDefault(a)}
+

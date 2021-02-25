@@ -1,0 +1,2 @@
+function module(t,e,n){var l,o,a,c,u;n.link("@babel/runtime/helpers/slicedToArray",{default:function(t){l=t}},0),n.export({useCollapse:function(){return i}}),n.link("react",{default:function(t){o=t}},0),n.link("@rocket.chat/fuselage-hooks",{useToggle:function(t){a=t}},1),n.link("../Attachment",{Attachment:function(t){c=t}},2),n.link("../context/AttachmentContext",{useAttachmentIsCollapsedByDefault:function(t){u=t}},3);var i=function(t){var e=u(),n=a(e||t),i=l(n,2),r=i[0],f=i[1];return[r,o.createElement(c.Collapse,{collapsed:r,onClick:f})]}}
+

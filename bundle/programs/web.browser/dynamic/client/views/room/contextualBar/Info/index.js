@@ -1,0 +1,2 @@
+function module(e,t,l){let n,o,a,i,u;l.link("@rocket.chat/fuselage-hooks",{useMutableCallback(e){n=e}},0),l.link("react",{default(e){o=e},useState(e){a=e}},1),l.link("./EditRoomInfo",{default(e){i=e}},2),l.link("./RoomInfo",{default(e){u=e}},3),l.exportDefault(e=>{let{rid:t}=e;const[l,c]=a(!1),r=n(()=>c(!1));return l?o.createElement(i,{onClickBack:r,rid:t}):o.createElement(u,{openEditing:c,rid:t})})}
+

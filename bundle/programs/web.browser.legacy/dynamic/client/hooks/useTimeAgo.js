@@ -1,0 +1,2 @@
+function module(e,n,t){var r,u;t.export({useTimeAgo:function(){return a},useShortTimeAgo:function(){return o}}),t.link("react",{useCallback:function(e){r=e}},0),t.link("moment",{default:function(e){u=e}},1);var a=function(){return r((function(e){return u(e).calendar(null,{sameDay:"LT",lastWeek:"dddd LT",sameElse:"LL"})}),[])},o=function(){return r((function(e){return u(e).calendar(null,{sameDay:"LT",lastDay:"[Yesterday]",lastWeek:"dddd",sameElse:function(e){return this.isBefore(e,"year")?"LL":"MMM Do"}})}),[])}}
+

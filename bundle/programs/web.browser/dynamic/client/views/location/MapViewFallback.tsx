@@ -1,0 +1,2 @@
+function module(e,n,t){let l,a,o,i,c;t.link("react",{default(e){l=e}},0),t.link("@rocket.chat/fuselage",{Box(e){a=e},Icon(e){o=e}},1),t.link("../../components/ExternalLink",{default(e){i=e}},2),t.link("../../contexts/TranslationContext",{useTranslation(e){c=e}},3);const r=e=>{let{linkUrl:n}=e;const t=c();return(l.createElement(a,{is:"span",fontScale:"p1",display:"inline-flex",alignItems:"center",paddingBlock:4},l.createElement(o,{name:"map-pin",size:20,color:"hint"}),l.createElement(i,{to:n},t("Shared_Location"))))};t.exportDefault(r)}
+

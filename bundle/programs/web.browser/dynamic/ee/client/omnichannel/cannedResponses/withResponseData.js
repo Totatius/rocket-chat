@@ -1,0 +1,2 @@
+function module(e,t,n){let s,i,l,o;n.link("@babel/runtime/helpers/extends",{default(e){s=e}},0),n.link("@babel/runtime/helpers/objectWithoutProperties",{default(e){i=e}},1),n.export({withResponseData:()=>d}),n.link("react",{default(e){l=e}},0),n.link("./useCannedResponses",{useCannedResponses(e){o=e}},1);const d=e=>t=>{var n;let{_id:d}=t,r=i(t,["_id"]);const a=null===(n=o(void 0,void 0,d))||void 0===n?void 0:n.shift();return(l.createElement(e,s({},r,{response:a})))}}
+

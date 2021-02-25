@@ -1,0 +1,2 @@
+function module(t,A,r){var n,a;r.export({AvatarUrlContext:function(){return u},useRoomAvatarPath:function(){return c},useUserAvatarPath:function(){return i}}),r.link("react",{createContext:function(t){n=t},useContext:function(t){a=t}},0);var e="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQYV2Oora39DwAFaQJ3y3rKeAAAAABJRU5ErkJggg==",o,u=n({getUserPathAvatar:function(){return e},getRoomPathAvatar:function(){return e}}),c=function(){return a(u).getRoomPathAvatar},i=function(){return a(u).getUserPathAvatar}}
+

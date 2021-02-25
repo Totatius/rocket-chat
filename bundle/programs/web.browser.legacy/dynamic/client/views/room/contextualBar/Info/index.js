@@ -1,0 +1,2 @@
+function module(n,e,t){var i,o,u,l,a,c;t.link("@babel/runtime/helpers/slicedToArray",{default:function(n){i=n}},0),t.link("@rocket.chat/fuselage-hooks",{useMutableCallback:function(n){o=n}},0),t.link("react",{default:function(n){u=n},useState:function(n){l=n}},1),t.link("./EditRoomInfo",{default:function(n){a=n}},2),t.link("./RoomInfo",{default:function(n){c=n}},3),t.exportDefault((function(n){var e=n.rid,t=l(!1),r=i(t,2),f=r[0],d=r[1],k=o((function(){return d(!1)}));return f?u.createElement(a,{onClickBack:k,rid:e}):u.createElement(c,{openEditing:d,rid:e})}))}
+

@@ -1,0 +1,2 @@
+function module(e,t,n){let l,o,a,i,u,r;n.link("@babel/runtime/helpers/extends",{default(e){l=e}},0),n.link("@rocket.chat/fuselage",{ActionButton(e){o=e}},0),n.link("@rocket.chat/fuselage-hooks",{useMutableCallback(e){a=e}},1),n.link("react",{default(e){i=e}},2),n.link("../../../contexts/LayoutContext",{useLayout(e){u=e}},3),n.link("../../../contexts/TranslationContext",{useTranslation(e){r=e}},4),n.exportDefault(i.memo(e=>{const{sidebar:t}=u(),n=r(),s=a(()=>{t.toggle()});return i.createElement(o,l({mie:"x4",icon:"burger",ghost:!0},e,{title:n("Sidebar"),onClick:s}))}))}
+

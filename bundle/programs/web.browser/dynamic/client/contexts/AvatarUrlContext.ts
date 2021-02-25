@@ -1,0 +1,2 @@
+function module(A,t,a){let e,r;a.export({AvatarUrlContext:()=>n,useRoomAvatarPath:()=>s,useUserAvatarPath:()=>U}),a.link("react",{createContext(A){e=A},useContext(A){r=A}},0);const o="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQYV2Oora39DwAFaQJ3y3rKeAAAAABJRU5ErkJggg==",g={getUserPathAvatar:()=>o,getRoomPathAvatar:()=>o},n=e(g),s=()=>r(n).getRoomPathAvatar,U=()=>r(n).getUserPathAvatar}
+

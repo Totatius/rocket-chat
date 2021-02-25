@@ -1,0 +1,2 @@
+function module(e,t,a){let i,n,l,o;function c(e){let{iconFileContent:t,size:a,iconFileData:c}=e,r=i(e,["iconFileContent","size","iconFileData"]);return(n.createElement(l,r,n.createElement(o,{size:a,objectFit:!0,url:t||"data:image/png;base64,".concat(c)})))}a.link("@babel/runtime/helpers/objectWithoutProperties",{default(e){i=e}},0),a.export({default:()=>c}),a.link("react",{default(e){n=e}},0),a.link("@rocket.chat/fuselage",{Box(e){l=e}},1),a.link("./BaseAvatar",{default(e){o=e}},2)}
+

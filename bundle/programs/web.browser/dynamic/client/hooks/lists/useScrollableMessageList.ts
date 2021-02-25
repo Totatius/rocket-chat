@@ -1,0 +1,2 @@
+function module(e,t,l){let a,s,n;l.link("@babel/runtime/helpers/objectSpread2",{default(e){a=e}},0),l.export({useScrollableMessageList:()=>o}),l.link("react",{useCallback(e){s=e}},0),l.link("./useScrollableRecordList",{useScrollableRecordList(e){n=e}},1);const i=e=>a({},e,{_updatedAt:new Date(e._updatedAt),ts:new Date(e.ts)},e.tlm&&{tlm:new Date(e.tlm)}),o=(e,t,l)=>{const o=s(async(e,l)=>{const s=await t(e,l);return a({},s.items&&{items:s.items.map(i)},{},s.itemCount&&{itemCount:s.itemCount})},[t]);return n(e,o,l)}}
+

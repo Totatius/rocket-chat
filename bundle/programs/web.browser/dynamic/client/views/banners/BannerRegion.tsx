@@ -1,0 +1,2 @@
+function module(e,n,t){let i,l,a,r,u;t.link("react",{default(e){i=e}},0),t.link("use-subscription",{useSubscription(e){l=e}},1),t.link("../../lib/banners",{"*"(e){a=e}},2),t.link("./LegacyBanner",{default(e){r=e}},3),t.link("./UiKitBanner",{default(e){u=e}},4);const c=()=>{const e=l(a.firstSubscription);return e?a.isLegacyPayload(e)?i.createElement(r,{config:e}):i.createElement(u,{payload:e}):null};t.exportDefault(c)}
+

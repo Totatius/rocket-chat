@@ -1,0 +1,2 @@
+function module(n,t,e){let o,c;function l(){const n=o(["\n    & ."," {\n        opacity: 0;\n    }\n    .",":focus,\n    &:hover .",",\n    &:focus ."," {\n        opacity: 1;\n    }\n"]);return l=function(){return n},n}e.link("@babel/runtime/helpers/taggedTemplateLiteral",{default(n){o=n}},0),e.export({anchor:()=>r,followStyle:()=>s}),e.link("@rocket.chat/css-in-js",{css(n){c=n}},0);const r="rcx-contextual-message__follow",s=c(l(),r,r,r,r)}
+

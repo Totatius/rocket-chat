@@ -1,0 +1,2 @@
+function module(e,n,t){let s,o,a,i;t.link("@babel/runtime/helpers/objectSpread2",{default(e){s=e}},0),t.export({useCannedResponses:()=>l}),t.link("react",{useCallback(e){o=e}},0),t.link("../../../../client/hooks/useReactiveValue",{useReactiveValue(e){a=e}},1),t.link("../../../app/canned-responses/client/collections/CannedResponse",{CannedResponse(e){i=e}},2);const l=(e,n,t)=>a(o(()=>{const o=s({},n&&{departmentId:n,scope:"department"},{},t&&{_id:t},{},!t&&{$or:[{shortcut:{$regex:e,$options:"i"}},{text:{$regex:e,$options:"i"}}]});return i.find(o).fetch()},[n,e,t]))}
+

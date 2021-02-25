@@ -1,0 +1,2 @@
+function module(e,t,n){let l,a,r,o,s;n.link("react",{default(e){l=e}},0),n.link("../../../contexts/TranslationContext",{useTranslation(e){a=e}},1),n.link("..",{Reply(e){r=e},Content(e){o=e}},2),n.link("../hooks/useBlockRendered",{useBlockRendered(e){s=e}},3);const c=e=>{let{username:t,mid:n,replyBroadcast:c}=e;const d=a(),{className:i,ref:u}=s();return l.createElement(o,null,l.createElement("div",{className:i,ref:u}),l.createElement(r,{"data-username":t,"data-mid":n,onClick:c},d("Reply")))};n.exportDefault(c)}
+

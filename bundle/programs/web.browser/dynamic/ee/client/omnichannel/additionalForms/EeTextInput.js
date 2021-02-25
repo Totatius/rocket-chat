@@ -1,0 +1,2 @@
+function module(e,l,t){let n,a,o,r;t.export({EeTextInput:()=>c}),t.link("react",{default(e){n=e}},0),t.link("@rocket.chat/fuselage",{TextInput(e){a=e},Field(e){o=e}},1),t.link("../../../../client/contexts/TranslationContext",{useTranslation(e){r=e}},2);const c=e=>{let{value:l,handler:t,label:c,placeholder:u}=e;const i=r();return(n.createElement(o,null,n.createElement(o.Label,null,i(c)),n.createElement(o.Row,null,n.createElement(a,{flexGrow:1,value:l,onChange:t,placeholder:i(u)}))))};t.exportDefault(c)}
+

@@ -1,0 +1,2 @@
+function module(n,i,e){var t,a,u,l,c;e.link("react",{default:function(n){t=n}},0),e.link("use-subscription",{useSubscription:function(n){a=n}},1),e.link("../../lib/banners",{"*":function(n){u=n}},2),e.link("./LegacyBanner",{default:function(n){l=n}},3),e.link("./UiKitBanner",{default:function(n){c=n}},4);var r=function(){var n=a(u.firstSubscription);return n?u.isLegacyPayload(n)?t.createElement(l,{config:n}):t.createElement(c,{payload:n}):null};e.exportDefault(r)}
+

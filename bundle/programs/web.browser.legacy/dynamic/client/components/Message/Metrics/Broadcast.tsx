@@ -1,0 +1,2 @@
+function module(e,n,t){var a,l,o,r,c;t.link("react",{default:function(e){a=e}},0),t.link("../../../contexts/TranslationContext",{useTranslation:function(e){l=e}},1),t.link("..",{Reply:function(e){o=e},Content:function(e){r=e}},2),t.link("../hooks/useBlockRendered",{useBlockRendered:function(e){c=e}},3);var i=function(e){var n=e.username,t=e.mid,i=e.replyBroadcast,u=l(),s=c(),d=s.className,f=s.ref;return a.createElement(r,null,a.createElement("div",{className:d,ref:f}),a.createElement(o,{"data-username":n,"data-mid":t,onClick:i},u("Reply")))};t.exportDefault(i)}
+

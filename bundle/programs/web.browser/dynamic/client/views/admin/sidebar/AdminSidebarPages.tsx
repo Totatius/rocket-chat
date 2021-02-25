@@ -1,0 +1,2 @@
+function module(e,t,n){let i,l,r,s,c,o;n.link("@rocket.chat/fuselage",{Box(e){i=e}},0),n.link("react",{default(e){l=e},memo(e){r=e}},1),n.link("use-subscription",{useSubscription(e){s=e}},2),n.link("../../../components/Sidebar",{default(e){c=e}},3),n.link("../sidebarItems",{itemsSubscription(e){o=e}},4);const u=e=>{let{currentPath:t}=e;const n=s(o);return(l.createElement(i,{display:"flex",flexDirection:"column",flexShrink:0,pb:"x8"},l.createElement(c.ItemsAssembler,{items:n,currentPath:t})))};n.exportDefault(r(u))}
+

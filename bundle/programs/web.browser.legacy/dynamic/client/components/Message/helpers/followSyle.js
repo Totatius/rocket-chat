@@ -1,0 +1,2 @@
+function module(n,t,o){var e,r;function c(){var n=e(["\n    & ."," {\n        opacity: 0;\n    }\n    .",":focus,\n    &:hover .",",\n    &:focus ."," {\n        opacity: 1;\n    }\n"]);return c=function(){return n},n}o.link("@babel/runtime/helpers/taggedTemplateLiteralLoose",{default:function(n){e=n}},0),o.export({anchor:function(){return u},followStyle:function(){return a}}),o.link("@rocket.chat/css-in-js",{css:function(n){r=n}},0);var u="rcx-contextual-message__follow",a=r(c(),u,u,u,u)}
+

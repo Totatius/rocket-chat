@@ -1,0 +1,2 @@
+function module(t,e,n){let r,o,c;n.export({useDir:()=>d}),n.link("react",{useEffect(t){r=t},useState(t){o=t}},0),n.link("@rocket.chat/emitter",{Emitter(t){c=t}},1);const i=new c,u=()=>document.documentElement.getAttribute("dir")||"ltr",s={attributes:!0,childList:!1,subtree:!1},a=function(t){for(const e of t)"attributes"===e.type&&"dir"===e.attributeName&&i.emit("change",u())},m=new MutationObserver(a);m.observe(document.documentElement,s);const d=()=>{const[t,e]=o(u);return r(()=>(i.on("change",e),()=>i.off("change",e)),[]),t}}
+

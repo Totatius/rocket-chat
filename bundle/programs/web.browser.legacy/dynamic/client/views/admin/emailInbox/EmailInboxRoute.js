@@ -1,0 +1,2 @@
+function module(n,e,t){var o,i,l,u;function a(){var n;return i("manage-email-inbox")?o.createElement(u,null):o.createElement(l,null)}t.link("react",{default:function(n){o=n}},0),t.link("../../../contexts/AuthorizationContext",{usePermission:function(n){i=n}},1),t.link("../../../components/NotAuthorizedPage",{default:function(n){l=n}},2),t.link("./EmailInboxPage",{default:function(n){u=n}},3),t.exportDefault(a)}
+

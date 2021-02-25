@@ -1,0 +1,2 @@
+function module(e,t,n){let l,o,a,r;n.link("@babel/runtime/helpers/objectWithoutProperties",{default(e){l=e}},0),n.export({Preferences:()=>i}),n.link("react",{default(e){o=e}},0),n.link("@rocket.chat/fuselage",{Field(e){a=e},Select(e){r=e}},1);const i=e=>{let{name:t,options:n,onChange:i,optionDefault:c,children:u}=e,h=l(e,["name","options","onChange","optionDefault","children"]);return(o.createElement(a,h,o.createElement(a.Label,null,t),o.createElement(a.Row,null,o.createElement(r,{onChange:i,options:n,value:c}),u)))}}
+

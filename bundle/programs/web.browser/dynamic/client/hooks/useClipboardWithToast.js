@@ -1,0 +1,2 @@
+function module(e,s,t){let o,n,a,c;function l(e){const s=a(),t=c();return o(e,{onCopySuccess:n(()=>t({type:"success",message:s("Copied")})),onCopyError:n(e=>t({type:"error",message:e}))})}t.export({default:()=>l}),t.link("@rocket.chat/fuselage-hooks",{useClipboard(e){o=e},useMutableCallback(e){n=e}},0),t.link("../contexts/TranslationContext",{useTranslation(e){a=e}},1),t.link("../contexts/ToastMessagesContext",{useToastMessageDispatch(e){c=e}},2)}
+
